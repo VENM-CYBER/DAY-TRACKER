@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 25% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+    --primary: 174 72% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 25% 15%;
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 50%;
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 174 72% 40%;
+    --radius: 0.75rem;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 10% 40%;
+    --sidebar-primary: 174 72% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 174 60% 95%;
+    --sidebar-accent-foreground: 174 72% 30%;
+    --sidebar-border: 220 15% 92%;
+    --sidebar-ring: 174 72% 40%;
+
+    --study: 250 80% 60%;
+    --gym: 340 75% 55%;
+    --food: 25 95% 55%;
+    --tasks: 174 72% 40%;
+    --gradient-hero: linear-gradient(135deg, hsl(174, 72%, 40%), hsl(200, 80%, 50%));
+    --gradient-study: linear-gradient(135deg, hsl(250, 80%, 60%), hsl(280, 70%, 55%));
+    --gradient-gym: linear-gradient(135deg, hsl(340, 75%, 55%), hsl(10, 80%, 55%));
+    --gradient-food: linear-gradient(135deg, hsl(25, 95%, 55%), hsl(45, 90%, 55%));
+    --gradient-tasks: linear-gradient(135deg, hsl(174, 72%, 40%), hsl(150, 60%, 45%));
+  }
+
+  .dark {
+    --background: 222 30% 8%;
+    --foreground: 210 20% 92%;
+    --card: 222 25% 12%;
+    --card-foreground: 210 20% 92%;
+    --popover: 222 25% 12%;
+    --popover-foreground: 210 20% 92%;
+    --primary: 174 72% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 222 20% 18%;
+    --secondary-foreground: 210 20% 85%;
+    --muted: 222 20% 16%;
+    --muted-foreground: 215 15% 55%;
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 222 20% 18%;
+    --input: 222 20% 18%;
+    --ring: 174 72% 45%;
+    --sidebar-background: 222 28% 10%;
+    --sidebar-foreground: 215 15% 60%;
+    --sidebar-primary: 174 72% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 25% 15%;
+    --sidebar-accent-foreground: 174 72% 45%;
+    --sidebar-border: 222 20% 15%;
+    --sidebar-ring: 174 72% 45%;
+
+    --study: 250 80% 65%;
+    --gym: 340 75% 60%;
+    --food: 25 95% 58%;
+    --tasks: 174 72% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 shadow-lg;
+  }
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  .gradient-study {
+    background: var(--gradient-study);
+  }
+  .gradient-gym {
+    background: var(--gradient-gym);
+  }
+  .gradient-food {
+    background: var(--gradient-food);
+  }
+  .gradient-tasks {
+    background: var(--gradient-tasks);
+  }
+  .tracker-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .tracker-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .tracker-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full;
+  }
+}
