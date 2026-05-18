@@ -1,152 +1,158 @@
-# 📘 DAY-TRACKER (Student Productivity App)
+<div align="center">
 
-A modern **web-based daily routine tracker** designed for students to manage their study, fitness, and daily habits efficiently. This app helps users stay productive with structured planning, tracking, and AI-based guidance.
+<p align="center">
+  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="100%" alt="DAY TRACKER Banner"/>
+</p>
+
+# 🚀 DAY-TRACKER
+
+### Smart Student Productivity App for Students
+
+<img src="https://img.shields.io/badge/React-Modern-blue?style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite"/>
+<img src="https://img.shields.io/badge/TailwindCSS-Stylish-38BDF8?style=for-the-badge&logo=tailwindcss"/>
+<img src="https://img.shields.io/badge/TypeScript-Powerful-blue?style=for-the-badge&logo=typescript"/>
+<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge"/>
+
+<br><br>
+
+### 📌 Plan • Track • Improve • Achieve
+
+🔗 **Live Demo:**  
+https://day-tracker-zwh8.vercel.app/
+
+</div>
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 ### 📚 Study Tracker
+- Track syllabus progress  
+- Add subjects & topics  
+- Attach learning resources  
+- Monitor consistency  
 
-* Track daily syllabus progress
-* Add subjects and topics
-* Attach YouTube videos for learning
-* Monitor study consistency
+### 🏋️ Fitness Tracker
+- Log workouts  
+- Track daily activity  
+- Monitor calorie burn  
 
-### 🏋️ Gym & Fitness Tracker
-
-* Track workouts and exercises
-* Monitor calories burned
-* Daily fitness logs
-
-### 🍽️ Food Tracker
-
-* Track breakfast, lunch, and dinner
-* Maintain healthy eating habits
+### 🍽 Food Tracker
+- Track breakfast, lunch & dinner  
+- Build healthy eating habits  
 
 ### ✅ Task Manager
+- Add & organize tasks  
+- Set priorities  
+- Mark completed tasks  
 
-* Add and manage daily tasks
-* Mark tasks as completed
-* Stay organized with priorities
-
-### 🤖 AI Advisor (Planned / Optional)
-
-* Personalized suggestions for:
-
-  * Study schedule
-  * Fitness improvements
-  * Daily productivity
-* Smart recommendations based on user activity
-
-### 🎨 UI & Experience
-
-* Clean and modern design
-* Fully responsive layout
-* Smooth animations using Tailwind CSS
+### 🤖 AI Advisor
+Smart suggestions for:
+- Better study schedules  
+- Productivity improvement  
+- Fitness recommendations  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-* ⚛️ React (with Vite)
-* 🎨 Tailwind CSS
-* 🟦 TypeScript
-* 🎞️ tailwindcss-animate
-* 📊 (Optional) Chart libraries for analytics
+```bash
+⚛️ React + Vite
+🎨 Tailwind CSS
+🟦 TypeScript
+✨ tailwindcss-animate
+🚀 Vercel Deployment
+```
 
 ---
 
 ## 📂 Project Structure
 
-```
+```bash
 vite-project/
 │── public/
 │── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # App pages (Dashboard, Tracker, etc.)
-│   ├── app/            # App-level logic
-│   ├── assets/         # Images, icons
-│   ├── styles/         # Global styles
-│   └── main.tsx        # Entry point
+│   ├── components/
+│   ├── pages/
+│   ├── app/
+│   ├── assets/
+│   ├── styles/
+│   └── main.tsx
 │
 │── index.html
-│── tailwind.config.ts
 │── package.json
+│── tailwind.config.ts
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚡ Installation
 
-### 1️⃣ Clone the repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/day-tracker.git
+cd day-tracker
 ```
 
-### 2️⃣ Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Run the development server
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
-### 4️⃣ Open in browser
+Open:
 
-```
+```bash
 http://localhost:5173/
 ```
 
 ---
 
-## 🔧 Scripts
+## 🌐 Live Demo
 
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run preview  # Preview production build
-```
+### 🚀 https://day-tracker-zwh8.vercel.app/
 
 ---
 
 ## 📈 Future Enhancements
 
-* 📅 Calendar integration
-* 🔔 Notifications & reminders
-* 📊 Analytics dashboard (charts & insights)
-* 🔐 User authentication (login/signup)
-* ☁️ Cloud data storage
-* 🤖 Advanced AI assistant
-
----
-
-## 🙌 Contribution
-
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
+- 📅 Calendar Integration  
+- 🔔 Smart Notifications  
+- 📊 Analytics Dashboard  
+- 🔐 User Authentication  
+- ☁️ Cloud Storage  
+- 🤖 Advanced AI Assistant  
 
 ---
 
 ## 👨‍💻 Author
 
-**Archit Deep**
-Student Developer | Web & AI Enthusiast
+# Archit Deep
+
+**Student Developer | Web & AI Enthusiast**
 
 ---
 
 ## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project:
+
+### 🌟 Star this repository on GitHub
+
+---
+
+<div align="center">
+
+### 🚀 Stay Productive with DAY-TRACKER
+
+<img src="https://img.shields.io/github/stars/your-username/day-tracker?style=social"/>
+
+</div>
