@@ -1,12 +1,10 @@
 <div align="center">
 
-<p align="center">
-  <img src="./assets/banner.gif" width="100%" alt="DAY-TRACKER Animated Banner"/>
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=34&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=🚀+DAY-TRACKER;📚+Track+Study+Progress;🏋️+Monitor+Fitness+Goals;🍽️+Manage+Healthy+Habits;🤖+AI+Powered+Productivity" />
 
 # 🚀 DAY-TRACKER
 
-### Smart Daily Productivity Tracker for Students
+### Smart Student Productivity App for Students
 
 <img src="https://img.shields.io/badge/React-Modern-blue?style=for-the-badge&logo=react"/>
 <img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite"/>
@@ -14,9 +12,9 @@
 <img src="https://img.shields.io/badge/TypeScript-Powerful-blue?style=for-the-badge&logo=typescript"/>
 <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge"/>
 
-<br>
+<br><br>
 
-### 📅 Plan • Track • Improve • Achieve
+### 📌 Plan • Track • Improve • Achieve
 
 🔗 **Live Demo:**  
 https://day-tracker-zwh8.vercel.app/
@@ -28,30 +26,30 @@ https://day-tracker-zwh8.vercel.app/
 ## ✨ Features
 
 ### 📚 Study Tracker
-- Track daily syllabus progress  
-- Add subjects and topics  
+- Track syllabus progress  
+- Add subjects & topics  
 - Attach learning resources  
 - Monitor consistency  
 
 ### 🏋️ Fitness Tracker
-- Log workouts and exercises  
-- Track calorie burn  
-- Daily fitness monitoring  
+- Log workouts  
+- Track daily activity  
+- Monitor calorie burn  
 
 ### 🍽 Food Tracker
 - Track breakfast, lunch & dinner  
 - Build healthy eating habits  
 
 ### ✅ Task Manager
-- Add daily tasks  
-- Organize priorities  
-- Mark completed work  
+- Add & organize tasks  
+- Set priorities  
+- Mark completed tasks  
 
 ### 🤖 AI Advisor
-Get smart recommendations for:
+Smart suggestions for:
 - Better study schedules  
-- Productivity optimization  
-- Fitness improvements  
+- Productivity improvement  
+- Fitness recommendations  
 
 ---
 
@@ -62,7 +60,7 @@ Get smart recommendations for:
 🎨 Tailwind CSS
 🟦 TypeScript
 ✨ tailwindcss-animate
-🚀 Vercel
+🚀 Vercel Deployment
 ```
 
 ---
@@ -77,7 +75,6 @@ vite-project/
 │   ├── pages/
 │   ├── app/
 │   ├── assets/
-│   │   └── banner.gif
 │   ├── styles/
 │   └── main.tsx
 │
@@ -93,8 +90,8 @@ vite-project/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/day-tracker.git
-cd day-tracker
+git clone https://github.com/VENM-CYBER/DAY-TRACKER.git
+cd DAY-TRACKER
 ```
 
 ### Install Dependencies
@@ -126,9 +123,9 @@ http://localhost:5173/
 ## 📈 Future Enhancements
 
 - 📅 Calendar Integration  
-- 🔔 Notifications & Reminders  
+- 🔔 Smart Notifications  
 - 📊 Analytics Dashboard  
-- 🔐 Authentication  
+- 🔐 User Authentication  
 - ☁️ Cloud Storage  
 - 🤖 Advanced AI Assistant  
 
@@ -138,7 +135,7 @@ http://localhost:5173/
 
 # Archit Deep
 
-**Student Developer | Web & AI Enthusiast**
+**Full Stack Developer | Web & AI Enthusiast**
 
 ---
 
@@ -146,14 +143,16 @@ http://localhost:5173/
 
 If you like this project:
 
-### 🌟 Star this repository
+### 🌟 Star this repository on GitHub
 
 ---
 
 <div align="center">
 
-## 🚀 Stay Productive with DAY-TRACKER
+### 🚀 Stay Productive with DAY-TRACKER
 
-Track smarter. Study better. Live healthier.
+<img src="https://img.shields.io/github/stars/VENM-CYBER/DAY-TRACKER?style=social"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6A5ACD&height=120&section=footer"/>
 
 </div>
