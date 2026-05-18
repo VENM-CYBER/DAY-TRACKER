@@ -1,12 +1,12 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="100%" alt="DAY TRACKER Banner"/>
+  <img src="./assets/banner.gif" width="100%" alt="DAY-TRACKER Animated Banner"/>
 </p>
 
 # 🚀 DAY-TRACKER
 
-### Smart Student Productivity App for Students
+### Smart Daily Productivity Tracker for Students
 
 <img src="https://img.shields.io/badge/React-Modern-blue?style=for-the-badge&logo=react"/>
 <img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite"/>
@@ -14,9 +14,9 @@
 <img src="https://img.shields.io/badge/TypeScript-Powerful-blue?style=for-the-badge&logo=typescript"/>
 <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge"/>
 
-<br><br>
+<br>
 
-### 📌 Plan • Track • Improve • Achieve
+### 📅 Plan • Track • Improve • Achieve
 
 🔗 **Live Demo:**  
 https://day-tracker-zwh8.vercel.app/
@@ -28,30 +28,30 @@ https://day-tracker-zwh8.vercel.app/
 ## ✨ Features
 
 ### 📚 Study Tracker
-- Track syllabus progress  
-- Add subjects & topics  
+- Track daily syllabus progress  
+- Add subjects and topics  
 - Attach learning resources  
 - Monitor consistency  
 
 ### 🏋️ Fitness Tracker
-- Log workouts  
-- Track daily activity  
-- Monitor calorie burn  
+- Log workouts and exercises  
+- Track calorie burn  
+- Daily fitness monitoring  
 
 ### 🍽 Food Tracker
 - Track breakfast, lunch & dinner  
 - Build healthy eating habits  
 
 ### ✅ Task Manager
-- Add & organize tasks  
-- Set priorities  
-- Mark completed tasks  
+- Add daily tasks  
+- Organize priorities  
+- Mark completed work  
 
 ### 🤖 AI Advisor
-Smart suggestions for:
+Get smart recommendations for:
 - Better study schedules  
-- Productivity improvement  
-- Fitness recommendations  
+- Productivity optimization  
+- Fitness improvements  
 
 ---
 
@@ -62,7 +62,7 @@ Smart suggestions for:
 🎨 Tailwind CSS
 🟦 TypeScript
 ✨ tailwindcss-animate
-🚀 Vercel Deployment
+🚀 Vercel
 ```
 
 ---
@@ -77,6 +77,7 @@ vite-project/
 │   ├── pages/
 │   ├── app/
 │   ├── assets/
+│   │   └── banner.gif
 │   ├── styles/
 │   └── main.tsx
 │
@@ -125,9 +126,9 @@ http://localhost:5173/
 ## 📈 Future Enhancements
 
 - 📅 Calendar Integration  
-- 🔔 Smart Notifications  
+- 🔔 Notifications & Reminders  
 - 📊 Analytics Dashboard  
-- 🔐 User Authentication  
+- 🔐 Authentication  
 - ☁️ Cloud Storage  
 - 🤖 Advanced AI Assistant  
 
@@ -145,14 +146,14 @@ http://localhost:5173/
 
 If you like this project:
 
-### 🌟 Star this repository on GitHub
+### 🌟 Star this repository
 
 ---
 
 <div align="center">
 
-### 🚀 Stay Productive with DAY-TRACKER
+## 🚀 Stay Productive with DAY-TRACKER
 
-<img src="https://img.shields.io/github/stars/your-username/day-tracker?style=social"/>
+Track smarter. Study better. Live healthier.
 
 </div>
